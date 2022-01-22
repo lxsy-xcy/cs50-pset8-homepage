@@ -1,2 +1,6 @@
 # cs50-pset8-homepage
- my solution of this pset
+cs50pset8的题目homepage是要求我们做个网页
+
+他要求还蛮多的，我也没有完全按照他的要求来，就只复现了我的blog模板前端内容
+
+然后属实是买家秀了2333333
