@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>archieve</title>
+        <script>
+            document.addEventListener('DOMContentLoaded',function()
+            {
+                let button1=document.querySelector('#blog1');
+                
+                let showall=document.querySelector("#showall");
+                showall.addEventListener('click',function()
+                {
+                    button1.style.display='block';
+                    console.log('success!');
+                });
+                let suisuinian=document.querySelector('#suisuinian');
+                suisuinian.addEventListener('click',function()
+                {
+                    button1.style.display='block';
+                });
+            });
+        </script>
+    </head>
+
+    <main>
+        <body>
+            <div class="archievetop ">
+
+                <!-- 导航栏 -->
+                <ul class ="daohang">
+                    <li><a class="leftbutton" href="index.html">LXSY</a></li>
+                    <li><a href="archieve.html" class="blockbutton otherbutton">ARCHIEVE</a></li>
+                    <li><a href="about.html" class="blockbutton otherbutton">ABOUT</a></li>
+                    <li><a href="index.html" class="blockbutton otherbutton">HOME</a></li>
+                </ul>
+
+                <!-- 中间的标题字 -->
+                <div class="centered archievetheme">
+                    <h1 class="bigfontsize">Archieve</h1>
+                    <h5>learn to change the world</h5>
+                </div>
+
+            </div>
+
+            <!-- 侧边栏 -->
+            <div class="card border-light mb-3 item-right" style="width: 18rem;">
+                <img src="https://s4.ax1x.com/2022/01/20/7cz0cd.jpg" class="card-img-top" alt="figure">
+                <div class="card-body">
+                    <h5 class="card-title">About me</h5>
+                    <p class="card-text">CS student</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">love CS</li>
+                    <li class="list-group-item">love music</li>
+                    <li class="list-group-item">love EE</li>
+                </ul>
+                <div class="card-body">
+                    friend<br>
+                    <a href="https://abyss-42.github.io/" class="card-link">42</a>
+                </div>
+            </div>
+
+            <!-- 分支按钮 -->
+            <div class="container">
+                <button class='archieve-button' id = 'showall'>show all</button>
+                <button class='archieve-button' id = 'suisuinian'>talks</button>
+                <a id ='blog1'class="btn btn-primary btn-lg hide" href="firstblog.html" role="button">firstblog</a>
+            </div>
+
+        </body>
+    </main>
+    <!-- 页尾 -->
+    <footer class="centered">
+        <p>Copyright &#169; lxsy</p>
+        <p>Contact information: <a href="mailto:someone@example.com">lxsy31084573@163.com</a>.</p>
+    </footer>
+</html>

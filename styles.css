@@ -1,0 +1,180 @@
+.centered
+{
+    text-align: center;
+}
+
+.top
+{
+    background-image: url('https://s4.ax1x.com/2022/01/20/7cOgbT.jpg');
+    color: white;
+    background-size: 1200px 550px;
+    height:26rem;
+    padding:2rem,0rem;
+}
+
+.archievetop
+{
+    background-image: url('https://s4.ax1x.com/2022/01/20/7cOgbT.jpg');
+    color: white;
+    background-size: 1200px 550px;
+    height:17rem;
+    padding:2rem,0rem;
+}
+
+.archievetheme
+{
+    height:10rem;
+    padding: 20px 0;
+}
+
+main
+{
+    height:90rem
+}
+
+.theme
+{
+    height:10rem;
+    padding: 70px 0;
+}
+
+.bigfontsize
+{
+    font-size:90px;
+}
+
+.daohang {
+    list-style-type: none; /*删除小圆点*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+
+.leftbutton
+{
+    display: 100px;
+    color: white;
+    float:left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.blog-leftbutton
+{
+    display: 100px;
+    color: black;
+    float:left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.otherbutton 
+{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+.blog-otherbutton 
+{
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+
+.leftbutton:hover
+{
+    color:burlywood;
+    text-decoration-line: none;
+}
+
+.blog-leftbutton:hover
+{
+    color:rgb(180, 105, 6);
+    text-decoration-line: none;
+}
+
+.otherbutton:hover
+{
+    color:burlywood;
+    text-decoration-line: none;
+}
+
+.blog-otherbutton:hover
+{
+    color:rgb(180, 105, 6);
+    text-decoration-line: none;
+}
+
+.item-right
+{
+    float:right; /*或視乎父元素width使用float:right; 或margin-left:.left的闊度*/
+}
+
+.item-left
+{
+    float:left; /*或視乎父元素width使用float:right; 或margin-left:.left的闊度*/
+}
+
+.liubai
+{
+    margin-left: 5rem;
+    background-color: transparent;
+    margin-right: 5rem;
+    width:50rem;
+}
+
+.button
+{
+    background-color: rgb(77, 75, 75);
+    color:white;
+    border-color:transparent;
+}
+
+.blackcolor
+{
+    color:black;
+}
+
+.button:hover
+{
+    background-color: transparent;
+    color:burlywood;
+    border-color:transparent;
+}
+
+.container 
+{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5rem;
+}
+
+.archieve-button
+{
+    background-color: #e8ecf0;
+    border: 1px solid rgb(66, 65, 65);
+    border-radius: 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+}
+
+.hide
+{
+    margin-top: 5rem;
+    display: none;
+    width:10rem;
+}
